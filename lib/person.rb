@@ -1,1 +1,5 @@
-# your code goes here
+require 'pry'
+
+def hi_chelsea
+    puts "Hi Chelsea"
+end
