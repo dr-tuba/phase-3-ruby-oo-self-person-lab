@@ -14,10 +14,6 @@ class Person
     def name
         @name
     end
-
-    def bank_account
-        @bank_account
-    end
 end
 
 chelsea = Person.new("Chelsea Santos")
@@ -30,11 +26,16 @@ puts chelsea.name
 puts steve.bank_account
 
 # sets the value of the bank account to a new amount.
+puts chelsea.bank_account = 1500000
 
 # gets the value of the person's happiness points.
+puts steve.happiness
 
 # sets the value of the person's happiness points. The maximum value allowed is 10, and the minimum value allowed is 0.
+puts chelsea.happiness = 15
 
 # gets the value of the person's hygiene points.
+puts steve.hygiene
 
 # sets the value of the person's hygiene points. The maximum value allowed is 10, and the minimum value allowed is 0.
+puts steve.hygiene = 2
