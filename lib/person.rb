@@ -22,7 +22,7 @@ class Person
             false
         end
     end
-
+    
     def happy?
         if @happiness > 7 
             true
@@ -91,5 +91,3 @@ end
 
 chelsea = Person.new("Chelsea Santos")
 steve = Person.new("Steve Vaughn")
-
-chelsea.happiness = 20
